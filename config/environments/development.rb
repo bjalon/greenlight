@@ -48,6 +48,7 @@ Rails.application.configure do
     password: ENV['SMTP_PASSWORD'],
     authentication: ENV['SMTP_AUTH'],
     enable_starttls_auto: ENV['SMTP_STARTTLS_AUTO'],
+    openssl_verify_mode: ENV['SMTP_OPENSSL_VERIFY_MODE'] || "peer",
   }
 
   # Do care if the mailer can't send.
