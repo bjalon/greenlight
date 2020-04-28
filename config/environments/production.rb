@@ -91,6 +91,7 @@ Rails.application.configure do
       password: ENV['SMTP_PASSWORD'],
       authentication: ENV['SMTP_AUTH'],
       enable_starttls_auto: ENV['SMTP_STARTTLS_AUTO'],
+      openssl_verify_mode: ENV['SMTP_OPENSSL_VERIFY_MODE'] || "peer",
     }
   else
     {
@@ -98,6 +99,7 @@ Rails.application.configure do
       port: ENV["SMTP_PORT"],
       domain: ENV['SMTP_DOMAIN'],
       enable_starttls_auto: ENV['SMTP_STARTTLS_AUTO'],
+      openssl_verify_mode: ENV['SMTP_OPENSSL_VERIFY_MODE'] || "peer",
     }
   end
 
