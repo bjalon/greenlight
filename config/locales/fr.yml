@@ -175,8 +175,8 @@ fr:
       message:
       help:
     not_found:
-      message:
-      help: "Est-il possible qu'il ait été supprimé ?"
+      message: Désolé ! La page n'existe pas ou plus.
+      help: "Contacter le professeur ou le gestionnaire du site <a href='mailto:contact@gd2l.fr'>contact@gd2l.fr</a>?"
       user_not_found:
         help:
         message:
