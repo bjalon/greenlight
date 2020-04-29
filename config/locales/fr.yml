@@ -176,7 +176,7 @@ fr:
       help:
     not_found:
       message: Désolé ! La page n'existe pas ou plus.
-      help: "Contacter le professeur ou le gestionnaire du site <a href='mailto:contact@gd2l.fr'>contact@gd2l.fr</a>?"
+      help: "Contacter le professeur ou le gestionnaire du site contact@gd2l.fr"
       user_not_found:
         help:
         message:
