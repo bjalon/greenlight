@@ -5,6 +5,8 @@ services:
     entrypoint: [bin/start]
     image: gd2l/greenlight:v2
     container_name: greenlight-v2
+    build:
+          context: ./
     env_file: .env
     restart: unless-stopped
     ports:
